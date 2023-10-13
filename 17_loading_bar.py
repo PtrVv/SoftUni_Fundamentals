@@ -1,3 +1,4 @@
+# A function that returns a loading bar depending on the number recieved in the input.
 number = int(input())
 
 percentage_list = []
