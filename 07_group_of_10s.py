@@ -1,3 +1,4 @@
+# A program that recieves a sequence of numbers and prints them sorted into lists of 10's.
 import sys
 numbers = list(map(int, input().split(", ")))
 
