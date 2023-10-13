@@ -1,3 +1,4 @@
+# You are given a secret message to decipher.
 secret_message = input().split()
 
 
