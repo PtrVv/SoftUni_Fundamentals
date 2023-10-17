@@ -11,7 +11,6 @@ while len(distance) > 0:
         removed_element = distance[0]
         sum_of_removed += removed_element
         distance[0] = distance[-1]
-        distance[-1] = distance[0]
         distance = [x + removed_element if x <= removed_element else x - removed_element for x in distance]
         
     elif current_index > len(distance) - 1:
