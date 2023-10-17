@@ -1,4 +1,4 @@
-# A program that receives a sequence of integers - the distance to the pokemon. Then you will begin receiving integers, which will correspond to indexes in that sequence.
+# A program that receives a sequence of integers - the distance to the pokemon. Then it will begin receiving integers, which will correspond to indexes in that sequence.
 # The program ends when the sequence has no elements left.(there are no more pokemon left to be caught)
 distance = [int(digit) for digit in input().split(" ")]
 
