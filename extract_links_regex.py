@@ -10,4 +10,3 @@ while text_links:
     for link in matches:
         print("".join(link[0]))
     text_links = input()
-    
